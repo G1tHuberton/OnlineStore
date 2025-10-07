@@ -6,7 +6,8 @@ public class Main
      public static void main(String[] args){
 
       Store store = new Store();
-      // store.test();
+      
+    //Creating a book and a movie object to test the classes
       Book b1 = new Book("The Great Gatsby", "10.50", new Author("F. Scott Fitzgerald", "September 24, 1896"), "April 10, 1925");
       Movie m1 = new Movie("Inception", "15.50", new Author("Christopher Nolan", "July 30, 1970"), "July 13, 2010","2.5");
      System.out.println( m1.getName());

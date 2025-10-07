@@ -14,13 +14,16 @@ public class Author
 
     }
 
-
+    // pre-condition: name is a valid String.
+	// post-condition: name is returned.
     public String getName() {
 
         return name;
 
     }
 
+    // pre-condition: Birthdate is a valid String.
+	// post-condition: Birthdate is returned.
     public String getBirthdate() {
 
         return BirthDate;

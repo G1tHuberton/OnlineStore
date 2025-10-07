@@ -7,6 +7,8 @@ public class Movie extends ItemForSale
         this.length = length;
     }
 
+    // pre-condition: length is a valid String.
+    // post-condition: length is returned.
     public String getlength() {
 
         return length + " hours";

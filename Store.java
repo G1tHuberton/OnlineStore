@@ -39,6 +39,8 @@ public class Store
   private float profit = 0.0f;
 
 
+  // pre-condition: Items list is not empty.
+  // post-condition: All items in the Items list are printed to the console.
   public void ShowItems(){
 
     for(int i = 0; i <= Items.size()-1; i++)
@@ -46,12 +48,16 @@ public class Store
 
   }
 
+  // pre-condition: newItem is a valid ItemForSale object.
+  // post-condition: newItem is added to the Items list.
   public void addItem(ItemForSale newItem){
 
     Items.add(newItem);
 
   }
 
+  // pre-condition: item is a valid ItemForSale object that exists in the Items list.
+  // post-condition: item is removed from the Items list and its price is added to profit
   public void sellItem(ItemForSale item){
 
     float counter;
@@ -63,6 +69,8 @@ public class Store
 
   }
 
+  // pre-condition: item is a valid ItemForSale object that exists in the Items list.
+  // post-condition: the creator of item is printed to the console.
   public void creator(ItemForSale item){
 
     System.out.println(item.getcreator());

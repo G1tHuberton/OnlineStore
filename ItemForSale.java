@@ -13,24 +13,32 @@ public class ItemForSale{
 
     }
 
+    // pre-condition: name is a valid String.
+    // post-condition: name is returned.
     public String getName() {
 
         return name;
         
     }
 
+    // pre-condition: publishDate is a valid String.
+    // post-condition: publishDate is returned.
     public String getPublishDate(){
 
         return publishDate;
 
     }
 
+    // pre-condition: price is a valid String.
+    // post-condition: price is returned.
     public String getPrice() {
 
         return price;
 
     }
 
+    // pre-condition: creator is a valid Author object.
+    // post-condition: creator's name is returned.
     public String getcreator() {
 
         return creator.getName();
